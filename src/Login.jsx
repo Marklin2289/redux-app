@@ -1,15 +1,15 @@
 import React from "react";
-import { useStateValue } from "./StateProvider";
+// import { useStateValue } from "./StateProvider";
 
 const Login = () => {
-  const [state, dispatch] = useStateValue();
+//   const [state, dispatch] = useStateValue();
 
   const loginToApp = () => {
     // login to app
-    dispatch({
-      type: "SET_USER",
-      user: "Mark Lin",
-    });
+    // dispatch({
+    //   type: "SET_USER",
+    //   user: "Mark Lin",
+    // });
   };
   return (
     <div>
